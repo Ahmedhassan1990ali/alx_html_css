@@ -48,7 +48,7 @@ h1 {
     color:white;
     background-color: blueviolet;
     padding: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
     border-radius: 20px;
 }
 
@@ -154,9 +154,6 @@ h1 {
     text-align: left;
 }
 
-#videos > div >img::after {
-    background: url("./CSS Advanced images/play.png")
-}
 
 .philip {
     display: flex;
@@ -191,3 +188,48 @@ h1 {
 }
 
 /* -------------------------------------------------------- */
+
+
+#membership {
+    background-color: rgb(25, 5, 56);
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+#membership h2 {
+    width: 600px;
+    flex: 0 0 100%;
+    margin-bottom: 60px;
+    /* background-color: blue; */
+}
+
+#membership h2 span{
+    color:blueviolet;
+}
+
+#membership > div {
+    flex: 1 1 calc(25%-12px);
+    min-width: 140px;
+    max-width: 300px;
+    width: calc(25% - 12px);
+    text-align: center;
+}
+
+#membership button {
+    display: block;
+    margin: 20px auto 50px;
+    color:white;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 20px;
+}
+
+
+/* -------------------------------------- */
+
+
