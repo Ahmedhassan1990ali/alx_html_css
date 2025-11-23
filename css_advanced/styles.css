@@ -1,0 +1,99 @@
+body {
+  background-image: url("./CSS Advanced images/object.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  text-align: center;      
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+    display: flex;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+nav li {
+    list-style-type: none; 
+}
+
+nav li a{
+    text-decoration: none;
+    color :whitesmoke;
+}
+
+/* -------------------------------------- */
+
+h1 {
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    margin-top: 90px;
+}
+
+#h1-div span {
+    margin: 1.4%;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+#h1-div button {
+    display: block;
+    margin: 20px auto 70px;
+    color:white;
+    background-color: blueviolet;
+    padding: 10px;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+#learn {
+    color: white;
+}
+
+#learn h2 {
+    margin-bottom: 25px;
+}
+#learn span {
+    color:rgb(218, 30, 218)
+}
+
+#quotes {
+    display: flex;
+    gap: 60px;
+    /* background-color: yellow; */
+    max-width: fit-content;
+    margin: 0 auto 50px;
+    
+}
+
+#quotes img {
+    width:100px;
+    border-radius: 50px;
+}
+
+#quotes p {
+    max-width:100px;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 1.5em;
+    padding: 0;
+}
+
+#quotes div{
+    /* border: 10px black dashed; */
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+
+
