@@ -130,4 +130,64 @@ h1 {
     margin: 0%;
 }
 
+/* ----------------------------------------------------------- */
 
+#videos {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding-bottom: 30px;
+    margin: 10px;
+}
+
+#videos h2 {
+    width: 600px;
+    flex: 0 0 100%;
+    /* background-color: blue; */
+}
+
+#videos > div {
+    flex: 1 1 calc(25%-12px);
+    min-width: 140px;
+    width: calc(25% - 12px);
+    text-align: left;
+}
+
+#videos > div >img::after {
+    background: url("./CSS Advanced images/play.png")
+}
+
+.philip {
+    display: flex;
+    gap: 20px;
+    color: purple;
+}
+
+.philip img {
+    width: 15%;
+    display: inline-block;
+}
+
+.philip p {
+    display: inline-block;
+}
+
+.stars {
+    display: inline-block;
+    flex-direction: row;
+    color: purple;
+}
+
+.stars div {
+    display: inline;
+}
+
+.stars +p {
+    margin-left: 10px;
+    display: inline;
+    text-align: right;
+    color: purple;
+}
+
+/* -------------------------------------------------------- */
