@@ -233,3 +233,42 @@ h1 {
 /* -------------------------------------- */
 
 
+#faq {
+    background-color: white;
+    padding: 30px;
+}
+
+#faq h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+#faq > div {
+  display: flex;
+  flex-wrap: wrap;         
+  gap: 2rem;               
+  justify-content: center;
+}
+
+#faq > div > div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;             
+  flex: 1 1 45%; 
+  box-sizing: border-box;
+  padding: 10px 80px;
+}
+
+
+#faq > div > div > div:nth-child(odd) h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+#faq > div > div > div:nth-child(even) {
+  line-height: 1.5;
+}
+
+
+/* -------------------------------------- */
