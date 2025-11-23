@@ -257,7 +257,7 @@ h1 {
   gap: 1.5rem;             
   flex: 1 1 45%; 
   box-sizing: border-box;
-  padding: 10px 80px;
+  padding: 10px 130px;
 }
 
 
@@ -272,3 +272,28 @@ h1 {
 
 
 /* -------------------------------------- */
+
+footer {
+    height: 400px;
+}
+
+footer section {
+    padding: 150px;
+    color:white;
+}
+
+footer section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer section div div {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+}
+
+footer section p {
+    margin: 100px auto 0;
+}
