@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Holberton';
+  src: url('holberton_school-icon/fonts/holberton_school-icon.eot');
+  src: url('holberton_school-icon/fonts/holberton_school-icon.eot?#iefix') format('embedded-opentype'),
+       url('holberton_school-icon/fonts/holberton_school-icon.woff') format('woff'),
+       url('holberton_school-icon/fonts/holberton_school-icon.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  font-family: 'Holberton';
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  font-size: 40px;
+}
+
+
+body {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 1300px;
+    text-align: center;
+
+}
+
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    padding: 0 5%;
+}
+
+header nav .hamburger {
+  display: none;
+  position: relative;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+header nav .hamburger .mobile-menu {
+  display: none;
+  position: absolute;
+  /* top: 35px;
+  right: 0; */
+  /* background: hsl(0, 0%, 100%); */
+  background-color: transparent;
+  border: 1px solid #ddd;
+  padding: 10px 0;
+  width: 90vw;
+}
+
+header nav .hamburger .mobile-menu a {
+  display: block;
+  padding: 10px 15px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+header nav .hamburger .mobile-menu a:hover {
+  background: hsla(0, 1%, 47%, 0.76);
+}
+
+/* Show dropdown when hovering over hamburger */
+header nav .hamburger:hover .mobile-menu {
+  display: block;
+}
+
+
+header nav img {
+    padding: 6px;
+    height: 10vh;
+    width: auto;
+}
+header nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    font-size: 1.8rem;
+    width : 35%;
+}
+
+header a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+main #section1 {
+    min-height: 1200px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+main #section1 h1 {
+    margin-top: 40vh;
+}
+
+main #section1 button {
+    margin-top: 5vh;
+    width: 10%;
+    min-width: 150px;
+    min-height :5vh;
+    border-radius: 20px;
+    background-color: tomato;
+    color: whitesmoke;
+    font-size: 1.2em;
+}
+
+main #section1 button ~p {
+    text-align: center;
+    width: 40%;
+    margin: 10px auto;
+    line-height: 1.4rem;
+}
+
+/* --------------- */
+
+main #whatwedo {
+  background-color: white;
+  min-height: 100vh;
+}
+main #whatwedo .intro h2 {
+  margin: 20px auto;
+  font-size: 1.8rem;
+}
+main #whatwedo .intro p {
+  width:40%;
+  margin: auto;
+  min-width: 400px;
+}
+
+main #whatwedo .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 80px auto;
+  width:90%;
+  justify-content: space-evenly;
+}
+
+main #whatwedo .cards .card {
+  padding: 30px;
+}
+main #whatwedo .cards .card p {
+  width:80%;
+  margin: auto;
+}
+
+main #whatwedo .cards .card .icon {
+  font-size: 20vh;
+  color:goldenrod
+}
+
+/* ---------------------- */
+/*        MOBILE          */
+/* ---------------------- */
+@media (max-width: 768px) {
+
+  /* Hide desktop links */
+  header nav ul {
+    display: none;
+  }
+
+  /* Show hamburger */
+  header nav .hamburger {
+    display: block;
+  }
+}
